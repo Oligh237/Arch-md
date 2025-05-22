@@ -9,13 +9,13 @@ const fs = require("fs")
 require('dotenv').config(); 
 
 //================= { SETTINGS } =================\\
-global.prefix = process.env.PREFIX || ""; // your desired prefix symbol,emoji, leave blank for no prefix
-global.owner = process.env.OWNER_NUMBER || "2347036214381"; // owner number 
+global.prefix = process.env.PREFIX || "."; // your desired prefix symbol,emoji, leave blank for no prefix
+global.owner = process.env.OWNER_NUMBER || "237695942144"; // owner number 
 global.sudo = process.env.SUDO  || " ";
-global.ownername = process.env.OWNER_NAME || "Ednut"; //set bot owner name here 
-global.botname = process.env.BOT_NAME || "αrch md";
-global.author = process.env.AUTHOR  || "Ednut";
-global.packname = process.env.PACK_NAME  || "Arch Md ²⁵";
+global.ownername = process.env.OWNER_NAME || "Oli"; //set bot owner name here 
+global.botname = process.env.BOT_NAME || "Olibot";
+global.author = process.env.AUTHOR  || "Cédric";
+global.packname = process.env.PACK_NAME  || "OliMd ²⁵";
 global.thumb = process.env.THUMB_IMAGE || 'https://files.catbox.moe/1uhvld.jpg';
 global.footer = process.env.FOOTER || '🤖 © wa bot';
 global.onlypc = process.env.ONLYPC_MSG  || "Sorry buddy the bot won't work directly in group chat to reduce spam use in private chat";
